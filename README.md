@@ -33,27 +33,49 @@ DRR013007
 # Workflow 
 
 Raw Data Acquisition (SRA Toolkit)
+
 ↓
+
 Raw Reads (.fastq.gz or. sra)
+
 ↓
+
 Quality Control Using Trimming (FastQC, Trimmomatic)
+
 ↓
+
 Cleaned Reads
+
 ↓
+
 Alignment (BWA, Bowtie2)
+
 ↓
+
 Aligned Reads (. sam or. bam)
+
 ↓
+
 Post-Alignment Processing (Samtools, Picard)
+
 ↓
+
 Processed Aligned Reads
+
 ↓
+
 Variant Calling (Freebayes)
+
 ↓
+
 Unfiltered Variants (.vcf)
+
 ↓
+
 Filtering 
+
 ↓
+
 Annotation & Visualization (VEP, IGV)
 
 | Step                             | Tool                      | Purpose                                                                                                                                                                                 | Input                                    | Output                                                          |
